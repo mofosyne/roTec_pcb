@@ -1,5 +1,5 @@
 # fakeTec_pcb
-My personal modification of the fakeTec, a low-cost nRF52 device with the form-factor of the Heltec v2 & v3 devices 
+My personal modification of the fakeTec, a low-cost nRF52 device with the form-factor of the Heltec v2, v3, & v4 devices 
 compatible with [Meshtastic](https://meshtastic.org/)®.
 
 This design is specifically based off of [Šimon Hořánek's](https://github.com/ShimonHoranek) 
@@ -38,19 +38,25 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 - Shifted pads `P1.01`, `P1.02`, and `P1.07` to where I'm pretty sure they're supposed to be
 - Removed jumper for BMS
   - I will always install a BMS
+- Removed jumper for GPS/FET1 Drain to FET1
+  - Only one will be connected at a time, probably no difference if this is permanently connected to both
 - Switched mosfets to AO3400A
   - I already have these and they're a drop in replacement
 - Changed all resistors and Capacitors to 805 sized
-  - I already have these
+  - I already have all the resistors in this size
+- Added pullup resistors to rotary encoder pads
+  - These probably support internal pullups, but just to be safe
+- Added ground pad to rotary encoder pads
 - Changed battery connector to a JST PH-2.0mm
   - Struggled to find JST 1.25 connectors
-  - PH-2.0mm are also more reliable
+  - PH-2.0mm are also apparently more reliable
 - Removed lots of silkscreen text
   - Don't need values or component names, just component references
   - Most of it was overlapping
 - Moved BMS to side
   - Keeps it out the way of the battery connector
 - Added a lot more stitching between front and back ground planes
+- Removed vias from on top of silkscreen and off of pads
 - Attempted to reduce layer crossings
 
 
@@ -63,21 +69,21 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 | With TCXO    | EByte E22/E220-xxxM-22S/HT-RA62  | <a href="https://github.com/meshtastic/firmware/tree/master/variants/nrf52840/diy/nrf52_promicro_diy_tcxo" target="_blank">Official repo - With TCXO</a>    | <a href="https://github.com/mrekin/MeshtasticCustomBoards/tree/main/firmware/variants/nrf52840/diy/promicro_diy_m" target="_blank">With TCXO</a> @mrekin/MeshtasticCustomBoards     |
 | Without TCXO | EByte E22/E220-xxxMM-22S/RA-01SH | <a href="https://github.com/meshtastic/firmware/tree/master/variants/nrf52840/diy/nrf52_promicro_diy_xtal" target="_blank">Official repo - Without TCXO</a> | <a href="https://github.com/mrekin/MeshtasticCustomBoards/tree/main/firmware/variants/nrf52840/diy/promicro_diy_mm" target="_blank">Without TCXO</a> @mrekin/MeshtasticCustomBoards |
 
-ℹ️If you don't want to build your own image use <a href="https://mrekin.duckdns.org/flasher/" target="_blank">mrekin's flasher</a>
+ℹ️If you don't want to build your own image use <a href="https://flasher.meshtastic.org/" target="_blank">the official web flasher</a>
 
 # Bill of materials
 
 | Part                           | Source                                                                                                                                      | Note                                                                                                      |
 |:-------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| NRF52840 ProMicro or n!icenano | [AliExpress](https://www.aliexpress.com/item/1005006446457448.html)<br/> [niceKeyboards](https://nicekeyboards.com/nice-nano/#find-a-store) | ⚠️[Please read it before buying red ProMicros](https://github.com/gargomoma/fakeTec_pcb/issues/30)⚠️      |
-| HT-RA62                        | [Heltec](https://heltec.org/project/ht-ra62/)<br/> [AliExpress](https://www.aliexpress.com/item/1005005543917617.html)                      |                                                                                                           |
+| NRF52840 ProMicro or n!icenano | [AliExpress](https://www.aliexpress.com/item/1005006446457448.html)<br/> [niceKeyboards](https://nicekeyboards.com/nice-nano/#find-a-store) |[Please read it before buying red ProMicros](https://github.com/gargomoma/fakeTec_pcb/issues/30)           |
+| HT-RA62                        | [Heltec](https://heltec.org/project/ht-ra62/)<br/> [AliExpress](https://www.aliexpress.com/item/1005005543917617.html)                      | I'd get it directly from heltec                                                                           |
 | XB8089D0 BMS                   | [LCSC](https://www.lcsc.com/product-detail/C2760005.html)                                                                                   |                                                                                                           |
 | 3x AO3400A MOSFETs             | [LCSC](https://www.lcsc.com/product-detail/C347475.html)<br/> [AliExpress](https://www.aliexpress.com/item/1005007115799728)                | Quite frankly, any logic level N-Channel MOSFET with a `SOT-23` footprint that takes at least 5v will do. |
 | SMD JST PH2.0mm Socket         | [LCSC](https://www.lcsc.com/product-detail/C295747.html)<br/> [LCSC](https://www.lcsc.com/product-detail/C7429689.html)                     |                                                                                                           |
-| SMD 805 Resistors              |                                                                                                                                             | You'll need 1x 1k, 5x 10K, 1x 680K, 1x 1M                                                                 |
+| SMD 805 Resistors              |                                                                                                                                             | You'll need 1x 1k, 8x 10K, 1x 680K, 1x 1M                                                                 |
 | SMD 805 Ceramic Capacitors     |                                                                                                                                             | You'll need 4 x 100nF                                                                                     |
 | 2x smd Button                  | [LCSC](https://www.lcsc.com/product-detail/C41427500.html)                                                                                  | You want something around 4 x 3 x 2                                                                       |
-| OLED SSD1306 i2c (optional)    | [AliExpress](https://www.aliexpress.com/item/1005005970901119.html)                                                                         | No need to solder, just be careful and add some tape in between the boards to avoid a short.              |
+| OLED SSD1306 i2c (optional)    | [AliExpress](https://www.aliexpress.com/item/1005005970901119.html)                                                                         |                                                                                                           |
 | Battery connection (optional)  | [AliExpress](https://www.aliexpress.com/item/1005002564191148.html)                                                                         | This is an example.                                                                                       |
 | Glue Stick Sprint Antenna      | [AliExpress](https://www.aliexpress.com/item/1005008671071222.html)                                                                         |                                                                                                           |
 | Antenna (Recommended           | [AliExpress](https://www.aliexpress.com/item/1005004607615001.html)                                                                         |                                                                                                           |

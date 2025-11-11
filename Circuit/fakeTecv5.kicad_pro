@@ -707,6 +707,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
         }
       ],
       "filter_string": "",
