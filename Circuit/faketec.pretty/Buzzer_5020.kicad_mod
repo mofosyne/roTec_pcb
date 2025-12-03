@@ -1,0 +1,141 @@
+(footprint "Buzzer_5020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BZ**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "49c43df8-2bf1-4488-9291-5ede806ab819")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MLT-5020"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e17b9960-394d-4179-9563-cd9a72ed6f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C94598.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdba8d4a-ce7d-48f6-8bba-52855d2f168e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "75dB Passive (Externally Driven) 4kHz 3V Electromagnetic SMD,5x5mm Alarms, Buzzers, and Sirens RoHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c5c7a37-ac10-43d9-bc41-3dacf8d4733c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5be61d86-916a-4e17-b421-ab31b9130acc")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end -2.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7bd03ab-7adc-4203-bb7e-9eb0af2c02dd")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dd1dc1d-33cf-4461-83b2-e4ad39d83003")
+	)
+	(fp_line
+		(start 2.5 -1.5)
+		(end 1.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ee2ed60-156e-4a8f-84e4-bc358dc74b39")
+	)
+	(fp_line
+		(start 2.5 1)
+		(end 2.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec4f13a-2d28-4d91-bce5-ce8aaae3eb0d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "781c3e4d-953b-4209-a366-409b5632a8ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -2 -1.75)
+		(size 2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6734c1a1-ba15-4dec-ace9-37cc051856dc")
+	)
+	(pad "1" smd roundrect
+		(at -2 1.75)
+		(size 2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ffdd907b-29ee-463e-9ff2-6d3b872f9b93")
+	)
+	(pad "2" smd roundrect
+		(at 2 1.75)
+		(size 2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "cfa46f6f-f705-435d-90c1-82a46e5e78fb")
+	)
+	(embedded_fonts no)
+)

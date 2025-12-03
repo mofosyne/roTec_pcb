@@ -563,245 +563,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -3634,7 +3395,7 @@
 	)
 	(text "Default Intent: GPS Power"
 		(exclude_from_sim no)
-		(at 258.572 78.994 0)
+		(at 261.112 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3664,16 +3425,6 @@
 		)
 		(uuid "57a2bf2c-d4be-49b7-94fe-568b34169b28")
 	)
-	(text "https://hackaday.com/2022/05/04/the-connector-zoo-i2c-ecosystems/\nThe JST-SH buddies"
-		(exclude_from_sim no)
-		(at 156.21 158.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "57ecba0c-9296-4c9e-b1b4-818379c8dca5")
-	)
 	(text "Battery voltage divider for measuring voltage,\nC1 used for getting more stable and accurate readings"
 		(exclude_from_sim no)
 		(at 20.32 20.066 0)
@@ -3685,26 +3436,6 @@
 		)
 		(uuid "5a8883fc-5331-4468-8698-ac9b0cba0e04")
 	)
-	(text "HW GPIO: P0.24\nPlatformIO GPIO: 24"
-		(exclude_from_sim no)
-		(at 212.344 87.376 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "861ed5ac-d268-4166-874d-46232e029a7c")
-	)
-	(text "HW GPIO: P0.06\nPlatformIO GPIO: 6"
-		(exclude_from_sim no)
-		(at 214.122 130.302 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88ec5b8e-5195-47c9-88cc-9885b82be191")
-	)
 	(text "HT-RA62"
 		(exclude_from_sim no)
 		(at 95.25 17.272 0)
@@ -3715,16 +3446,6 @@
 			(justify left)
 		)
 		(uuid "92152fff-744f-4d3c-b567-3fa2f95a43a6")
-	)
-	(text "HW GPIO: P1.06\nPlatformIO GPIO: 38"
-		(exclude_from_sim no)
-		(at 162.56 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a93125fe-42ed-4d49-868d-23a1148bdf79")
 	)
 	(text "Onboard buttons, RST for resetting,\nBTN is programmable, connected to D6"
 		(exclude_from_sim no)
@@ -3748,19 +3469,19 @@
 		)
 		(uuid "ae549a06-a02b-4fc2-80ec-1e1e0401d9a2")
 	)
-	(text "HW GPIO: P0.08\nPlatformIO GPIO: 8"
+	(text "Mofosyne TODO:\n* Expose the extra pin as well\n* Add test pins to make it easier to locate\n* Add resistor values so people can more easily use it\n* Let people use the 'user' button as encoder select pin as an opton"
 		(exclude_from_sim no)
-		(at 213.36 108.204 0)
+		(at 341.884 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b22038f2-6ac5-4bca-9b2b-a004061fa2b7")
+		(uuid "d4c115e0-387e-4e69-826b-edc8f6c3d918")
 	)
 	(text "Default Intent: Vibration Motor"
 		(exclude_from_sim no)
-		(at 259.588 99.822 0)
+		(at 260.604 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3792,7 +3513,7 @@
 	)
 	(text "Default Intent: BUZZER"
 		(exclude_from_sim no)
-		(at 251.46 118.872 0)
+		(at 262.89 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3847,7 +3568,7 @@
 		(uuid "083d1627-7a78-4c3d-8c99-7905bf24c2f8")
 	)
 	(junction
-		(at 224.79 114.3)
+		(at 208.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b9d3c52-60c7-42a8-8568-a2c2117ef3c2")
@@ -3859,7 +3580,7 @@
 		(uuid "0c67b472-eb1f-4fd4-9b02-19b5244f7a95")
 	)
 	(junction
-		(at 241.3 107.95)
+		(at 224.79 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12b4c8d3-5de8-48c7-8367-a2d4931bf81a")
@@ -3871,7 +3592,7 @@
 		(uuid "177da289-2971-4b1f-9d7e-a8c7dd575e14")
 	)
 	(junction
-		(at 232.41 80.01)
+		(at 215.9 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d8a76aa-12c7-4a84-8ac3-4867969c2db3")
@@ -3883,7 +3604,7 @@
 		(uuid "206a403e-0b44-414c-9aed-31d1358b82ea")
 	)
 	(junction
-		(at 232.41 123.19)
+		(at 215.9 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "317b2b5c-2700-41e6-a65f-39ae9414d50f")
@@ -3895,7 +3616,7 @@
 		(uuid "33d84e4c-0f2e-45d3-9e04-3bf67e88cc00")
 	)
 	(junction
-		(at 224.79 92.71)
+		(at 208.28 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3805c7c6-b8e9-4c87-b754-c12647ebd1b7")
@@ -3979,6 +3700,12 @@
 		(uuid "8e1c9451-462d-4d81-8092-c4387e51554d")
 	)
 	(junction
+		(at 160.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92365b4b-5698-43c5-ab1a-d61ba8b33a50")
+	)
+	(junction
 		(at 78.74 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3989,12 +3716,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a6862b5-fe36-4b95-8742-5a1d440827cb")
-	)
-	(junction
-		(at 208.28 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a00f56ff-1701-4da3-a42b-fa9d366e841d")
 	)
 	(junction
 		(at 134.62 46.99)
@@ -4015,25 +3736,19 @@
 		(uuid "b17c3939-74fc-4485-81a9-48d17e19c4a9")
 	)
 	(junction
-		(at 208.28 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9977eca-54c1-4fbc-a16a-d463476bdaf1")
-	)
-	(junction
 		(at 48.26 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67ea5e1-60c8-4ef7-b193-bef2b11f6784")
 	)
 	(junction
-		(at 232.41 101.6)
+		(at 215.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd54185e-e0c9-42e8-92cf-3855878dd4b5")
 	)
 	(junction
-		(at 242.57 64.77)
+		(at 226.06 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04b5461-a59c-425d-9f93-dc427e860ebe")
@@ -4051,12 +3766,6 @@
 		(uuid "df5f0430-5125-4290-a5c3-03e860261a89")
 	)
 	(junction
-		(at 208.28 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3f1d841-49b3-4358-b9ff-f6dc9da5884e")
-	)
-	(junction
 		(at 45.72 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4069,7 +3778,7 @@
 		(uuid "fe516685-d5fd-4b49-a967-fd51af52a195")
 	)
 	(junction
-		(at 224.79 71.12)
+		(at 208.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff7a1c7b-0213-4016-a2e3-f571bc23db34")
@@ -4184,16 +3893,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 119.38) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce8d8d5-aa1f-4586-8838-afbc42913de9")
-	)
-	(wire
-		(pts
 			(xy 114.3 90.17) (xy 121.92 90.17)
 		)
 		(stroke
@@ -4214,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 64.77) (xy 166.37 63.5)
+			(xy 166.37 63.5) (xy 166.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +3953,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 107.95) (xy 241.3 113.03)
+			(xy 224.79 107.95) (xy 224.79 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4271,16 +3970,6 @@
 			(type default)
 		)
 		(uuid "13fe4431-607f-423d-b09e-a6b08d14dbd3")
-	)
-	(wire
-		(pts
-			(xy 124.46 190.5) (xy 137.16 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1531dbe8-8a9c-460b-bc96-0dc7d4425804")
 	)
 	(wire
 		(pts
@@ -4304,7 +3993,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 232.41 74.93)
+			(xy 215.9 80.01) (xy 215.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4384,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 232.41 123.19)
+			(xy 208.28 123.19) (xy 215.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4424,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 80.01) (xy 232.41 80.01)
+			(xy 208.28 80.01) (xy 215.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4454,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 64.77) (xy 242.57 64.77)
+			(xy 215.9 64.77) (xy 226.06 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4464,23 +4153,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 92.71) (xy 224.79 93.98)
+			(xy 208.28 92.71) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2baaf478-fa7d-40c2-9fc0-c2d2d23ecbc8")
-	)
-	(wire
-		(pts
-			(xy 208.28 76.2) (xy 208.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bcd1a2f-a700-4ecf-89da-5c27a471707b")
 	)
 	(wire
 		(pts
@@ -4564,16 +4243,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 114.3) (xy 224.79 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308ff6be-7eb8-44a4-8a28-4a4803d051d8")
-	)
-	(wire
-		(pts
 			(xy 78.74 168.91) (xy 78.74 158.75)
 		)
 		(stroke
@@ -4584,7 +4253,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 72.39) (xy 256.54 71.12)
+			(xy 240.03 72.39) (xy 240.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4634,33 +4303,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 69.85) (xy 224.79 71.12)
+			(xy 208.28 69.85) (xy 208.28 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a3840f4-a49c-419d-9961-1ceedd8f707c")
-	)
-	(wire
-		(pts
-			(xy 166.37 69.85) (xy 179.07 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab33e57-7c92-408f-84ce-5cf0c960d770")
-	)
-	(wire
-		(pts
-			(xy 154.94 170.18) (xy 161.29 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4e9bb0-d1b2-4325-9aba-c7ebd74d049f")
 	)
 	(wire
 		(pts
@@ -4694,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 101.6) (xy 232.41 96.52)
+			(xy 215.9 101.6) (xy 215.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4714,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 102.87) (xy 232.41 101.6)
+			(xy 215.9 102.87) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4764,6 +4413,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 67.31) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451c0ba0-0a51-47fe-89cb-a18e9a8353c4")
+	)
+	(wire
+		(pts
 			(xy 160.02 44.45) (xy 149.86 44.45)
 		)
 		(stroke
@@ -4791,16 +4450,6 @@
 			(type default)
 		)
 		(uuid "49106640-2917-473c-8101-a1a85e3772d8")
-	)
-	(wire
-		(pts
-			(xy 203.2 71.12) (xy 208.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49272636-7525-4ae2-9a06-7763fb7d8c99")
 	)
 	(wire
 		(pts
@@ -4851,16 +4500,6 @@
 			(type default)
 		)
 		(uuid "4cbd2fb0-ef42-4c2b-b953-85f7f862ee69")
-	)
-	(wire
-		(pts
-			(xy 124.46 185.42) (xy 151.13 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e56b416-2cb5-4578-8aa4-c22b7f8b33f2")
 	)
 	(wire
 		(pts
@@ -4944,16 +4583,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 185.42) (xy 166.37 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573d45f8-4a73-4bd1-9531-d1c3f0b90551")
-	)
-	(wire
-		(pts
 			(xy 273.05 149.86) (xy 273.05 158.75)
 		)
 		(stroke
@@ -5024,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 64.77) (xy 243.84 64.77)
+			(xy 226.06 64.77) (xy 227.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5084,7 +4713,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 124.46) (xy 232.41 123.19)
+			(xy 215.9 124.46) (xy 215.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +4823,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 113.03) (xy 252.73 113.03)
+			(xy 224.79 113.03) (xy 236.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5234,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 193.04) (xy 130.81 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7032e465-8b68-4334-b31c-64c98125dfc1")
-	)
-	(wire
-		(pts
 			(xy 167.64 80.01) (xy 173.99 80.01)
 		)
 		(stroke
@@ -5274,7 +4893,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 115.57) (xy 257.81 114.3)
+			(xy 241.3 115.57) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5304,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 81.28) (xy 232.41 80.01)
+			(xy 215.9 81.28) (xy 215.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5404,26 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 124.46) (xy 210.82 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811234a9-0315-4681-8ff4-086446bbb46c")
-	)
-	(wire
-		(pts
-			(xy 140.97 139.7) (xy 140.97 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8218bf65-6961-48a0-abad-eccb7be99014")
-	)
-	(wire
-		(pts
 			(xy 224.79 153.67) (xy 224.79 157.48)
 		)
 		(stroke
@@ -5431,16 +5030,6 @@
 			(type default)
 		)
 		(uuid "83075630-9420-4727-b28a-73f436352465")
-	)
-	(wire
-		(pts
-			(xy 210.82 76.2) (xy 208.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839dde66-ba8f-46fd-9a84-f5a4981f232a")
 	)
 	(wire
 		(pts
@@ -5484,7 +5073,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 91.44) (xy 224.79 92.71)
+			(xy 208.28 91.44) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5494,7 +5083,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 224.79 115.57)
+			(xy 208.28 114.3) (xy 208.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5604,33 +5193,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 187.96) (xy 124.46 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e4e1e3-68b2-4d64-857f-a703fb1da920")
-	)
-	(wire
-		(pts
-			(xy 224.79 113.03) (xy 224.79 114.3)
+			(xy 208.28 113.03) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a56ed03-d7fa-49a7-81c1-70d92408ba2a")
-	)
-	(wire
-		(pts
-			(xy 154.94 177.8) (xy 161.29 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1709fd-9474-44b3-b608-def66914de2b")
 	)
 	(wire
 		(pts
@@ -5694,16 +5263,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 128.27) (xy 130.81 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3735dc3-3d7e-4008-8149-13afec08cb0e")
-	)
-	(wire
-		(pts
 			(xy 40.64 26.67) (xy 40.64 27.94)
 		)
 		(stroke
@@ -5764,16 +5323,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 102.87) (xy 210.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b720a3-eae7-419c-bbdc-da651aab07d4")
-	)
-	(wire
-		(pts
 			(xy 158.75 77.47) (xy 176.53 77.47)
 		)
 		(stroke
@@ -5824,16 +5373,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 119.38) (xy 208.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7c7383-fd1b-470b-ab71-b2d1538a77c4")
-	)
-	(wire
-		(pts
 			(xy 116.84 25.4) (xy 116.84 20.32)
 		)
 		(stroke
@@ -5854,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 64.77) (xy 179.07 64.77)
+			(xy 166.37 66.04) (xy 173.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5874,16 +5413,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 175.26) (xy 161.29 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e84f20-206a-425f-b0d8-a5c0d376c77a")
-	)
-	(wire
-		(pts
 			(xy 106.68 166.37) (xy 107.95 166.37)
 		)
 		(stroke
@@ -5894,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 69.85) (xy 242.57 69.85)
+			(xy 237.49 69.85) (xy 226.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5934,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 179.07 67.31)
+			(xy 160.02 69.85) (xy 173.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5964,46 +5493,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 92.71) (xy 224.79 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be409672-93f6-4792-9b77-33015724d929")
-	)
-	(wire
-		(pts
-			(xy 209.55 82.55) (xy 212.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf966059-13d1-4818-b1b5-86c3fd10fe2d")
-	)
-	(wire
-		(pts
-			(xy 208.28 71.12) (xy 224.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00022e5-2b48-457a-a6df-4311a0572a60")
-	)
-	(wire
-		(pts
-			(xy 210.82 97.79) (xy 208.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c05ed96a-252c-4bb8-a0a1-cd2412c2a132")
-	)
-	(wire
-		(pts
 			(xy 45.72 41.91) (xy 45.72 43.18)
 		)
 		(stroke
@@ -6021,16 +5510,6 @@
 			(type default)
 		)
 		(uuid "c489be1b-68cf-49e3-81ca-868494e6557a")
-	)
-	(wire
-		(pts
-			(xy 140.97 139.7) (xy 149.86 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4ddab27-29ef-48dc-9683-320e8cd8b825")
 	)
 	(wire
 		(pts
@@ -6054,7 +5533,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 123.19) (xy 232.41 118.11)
+			(xy 215.9 123.19) (xy 215.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6071,16 +5550,6 @@
 			(type default)
 		)
 		(uuid "ca506645-10ef-4f8b-8356-078b777a93c8")
-	)
-	(wire
-		(pts
-			(xy 160.02 67.31) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cadf07d4-a04c-4094-bfec-eec34721eaa0")
 	)
 	(wire
 		(pts
@@ -6114,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 232.41 86.36)
+			(xy 227.33 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6174,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 107.95) (xy 243.84 107.95)
+			(xy 224.79 107.95) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +5703,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 107.95) (xy 241.3 107.95)
+			(xy 215.9 107.95) (xy 224.79 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6264,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 92.71) (xy 208.28 92.71)
+			(xy 201.93 92.71) (xy 208.28 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6284,7 +5753,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 224.79 72.39)
+			(xy 208.28 71.12) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6341,6 +5810,16 @@
 			(type default)
 		)
 		(uuid "e37a72a6-2df4-49e6-805e-842f430be284")
+	)
+	(wire
+		(pts
+			(xy 201.93 71.12) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4112105-3386-425c-ae49-50b6ebfdd27f")
 	)
 	(wire
 		(pts
@@ -6434,16 +5913,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 97.79) (xy 208.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea59779f-ed0c-4b3a-a1d1-9a74b78124f0")
-	)
-	(wire
-		(pts
 			(xy 121.92 64.77) (xy 121.92 67.31)
 		)
 		(stroke
@@ -6484,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 92.71) (xy 250.19 91.44)
+			(xy 233.68 92.71) (xy 233.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 101.6) (xy 232.41 101.6)
+			(xy 208.28 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6554,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 208.28 114.3)
+			(xy 201.93 114.3) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6564,23 +6033,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 149.86 134.62)
+			(xy 172.72 148.59) (xy 181.61 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8421abe-9afc-46e2-b491-e10d43892450")
-	)
-	(wire
-		(pts
-			(xy 161.29 172.72) (xy 154.94 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ba8d71-ec16-492b-a9cb-266310ed5490")
 	)
 	(wire
 		(pts
@@ -6594,7 +6053,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 69.85) (xy 242.57 64.77)
+			(xy 226.06 69.85) (xy 226.06 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6612,16 +6071,6 @@
 		)
 		(uuid "fdec1494-f9e0-4fbd-bfaa-dfa639e70404")
 	)
-	(label "SCL"
-		(at 158.75 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "045ae061-98a6-45ed-a247-ef617c2444b7")
-	)
 	(label "RST_BTN"
 		(at 39.37 72.39 180)
 		(effects
@@ -6633,7 +6082,7 @@
 		(uuid "0ddcd396-58a0-4c3e-80af-9b894358236e")
 	)
 	(label "FET2"
-		(at 203.2 92.71 0)
+		(at 201.93 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6653,7 +6102,7 @@
 		(uuid "1995234d-b6c6-438a-b9a8-82dfb68f9200")
 	)
 	(label "FET1"
-		(at 203.2 71.12 0)
+		(at 201.93 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6693,7 +6142,7 @@
 		(uuid "252ee0a6-4aa0-420f-996f-13f6d4ac3919")
 	)
 	(label "FET3"
-		(at 203.2 114.3 0)
+		(at 201.93 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6732,16 +6181,6 @@
 		)
 		(uuid "2a0c0960-4c92-4306-adb1-7646491cc8b3")
 	)
-	(label "RST_BTN"
-		(at 176.53 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a6004bf-60db-42b0-a0bf-613d300ce6d6")
-	)
 	(label "EXTRA"
 		(at 123.19 97.79 0)
 		(effects
@@ -6761,16 +6200,6 @@
 			(justify left bottom)
 		)
 		(uuid "311784b4-d51f-4341-8e28-406a5fa23381")
-	)
-	(label "SCL"
-		(at 128.27 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "363b0132-b038-482d-a39c-80a6f850226b")
 	)
 	(label "ENC_A"
 		(at 177.8 116.84 180)
@@ -6923,7 +6352,7 @@
 		(uuid "74d9d8c4-128a-4f88-b7f3-80a3a432ba73")
 	)
 	(label "BUZZER"
-		(at 252.73 113.03 180)
+		(at 236.22 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7023,7 +6452,7 @@
 		(uuid "8a929589-d052-4050-aca7-252b4c82d9bb")
 	)
 	(label "GPS_GND"
-		(at 254 69.85 180)
+		(at 237.49 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7091,16 +6520,6 @@
 			(justify right bottom)
 		)
 		(uuid "a9c54c2d-bd5d-4c3a-b6cb-ea2a81e60e37")
-	)
-	(label "SDA"
-		(at 128.27 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b376c4aa-37bf-4131-adc2-8cc9b00672c1")
 	)
 	(label "MISO"
 		(at 154.94 30.48 180)
@@ -7252,16 +6671,6 @@
 		)
 		(uuid "dfdd902d-d59f-47af-8f18-5c75728340eb")
 	)
-	(label "SDA"
-		(at 158.75 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1af0204-045e-44d2-bb71-dcc2dc012f41")
-	)
 	(label "MOSI"
 		(at 154.94 27.94 180)
 		(effects
@@ -7303,7 +6712,7 @@
 		(uuid "f43d7f1b-80ee-4324-b53f-3d5c82771f21")
 	)
 	(label "EXTRA"
-		(at 142.24 134.62 0)
+		(at 173.99 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7378,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "faketec:NICE!NANO and pro-micro V2_2 SMD"
+		(property "Footprint" "N!ce_Nano:NICE!NANO V2_2 SMD"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -7512,210 +6921,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01dca485-a2a4-46ca-b746-8ac710cdbd31")
-		(property "Reference" "#PWR041"
-			(at 203.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.216 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17f70bd3-ccdb-4e77-9d50-5a9bbc7183a3")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 184.15 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "03de3dc5-13d2-4235-bbb7-a426a3942701")
-		(property "Reference" "J36"
-			(at 185.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 185.42 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 184.15 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39e60337-7948-4aed-b248-6fe48f84c0b8")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 187.96 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7807,7 +7012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 97.79 0)
 			(effects
 				(font
@@ -7913,210 +7118,6 @@
 			(project "fakeTecv5"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 142.24 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08fd8f64-00e2-40af-9b28-da086d27bec6")
-		(property "Reference" "J39"
-			(at 143.51 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SDA"
-			(at 143.51 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 142.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dccb43fe-43f2-44f4-971b-cff14b94eab5")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "117cc5bd-c4dc-44ae-bd13-0c78bfade40b")
-		(property "Reference" "#PWR040"
-			(at 201.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 202.946 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea540cb9-721c-41e5-9b1e-8d26ef60f920")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8459,288 +7460,10 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 154.94 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19cd82bd-9cef-41ae-9757-68bdb3feba93")
-		(property "Reference" "J45"
-			(at 156.21 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ff9ef2a-eb9e-4c14-9a16-1770f0550de5")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 148.59 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a32a359-9d25-4eaf-be40-f2bc5f45560d")
-		(property "Reference" "J40"
-			(at 149.86 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 149.86 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "262596d7-07fb-44b7-a294-030267edc67e")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
 		(at 109.22 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "20143198-99c3-4c63-ae6a-306aa0b6290f")
@@ -8763,7 +7486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -8772,7 +7495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -8781,7 +7504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 80.01 0)
 			(effects
 				(font
@@ -8941,16 +7664,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 154.94 134.62 0)
+		(at 186.69 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c35309-610f-49aa-b269-6bf95499bf86")
 		(property "Reference" "J1"
-			(at 156.21 133.3499 0)
+			(at 187.96 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +7682,7 @@
 			)
 		)
 		(property "Value" "EXTRA"
-			(at 156.21 135.8899 0)
+			(at 187.96 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,8 +7690,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 154.94 134.62 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,8 +7699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 134.62 0)
+		(property "Datasheet" "~"
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,8 +7708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 134.62 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +7718,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +7727,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +7736,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +7745,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +7754,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +7763,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +7772,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +7781,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 154.94 134.62 0)
+			(at 186.69 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +7806,7 @@
 		(at 184.15 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "26a0a321-3632-4465-b78c-edd1f21cc61b")
@@ -9106,7 +7829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -9115,7 +7838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -9124,7 +7847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -9641,7 +8364,7 @@
 		(at 179.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "34b1f15e-10e1-4e33-a3ad-0a7b64c0d253")
@@ -9664,7 +8387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -9673,7 +8396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -9682,7 +8405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 90.17 0)
 			(effects
 				(font
@@ -9842,7 +8565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 102.87 0)
+		(at 215.9 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9850,7 +8573,7 @@
 		(dnp no)
 		(uuid "39722420-bada-409a-b015-f7f6ae7994db")
 		(property "Reference" "#PWR015"
-			(at 232.41 109.22 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +8582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.966 104.14 0)
+			(at 219.456 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 102.87 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +8599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 102.87 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +8608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 102.87 0)
+			(at 215.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,71 +8623,6 @@
 			(project "Shimon_Faketec"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aaf57a4-43b9-481c-a39b-1035cefa0059")
-		(property "Reference" "#PWR031"
-			(at 166.37 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 190.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fc05891-1b4e-46e4-b733-623e0369a056")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10037,225 +8695,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 215.9 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47440132-384e-4107-a5c8-e7dd1107600c")
-		(property "Reference" "J44"
-			(at 217.17 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FET3"
-			(at 217.17 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 215.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "866a3060-1868-428a-bacd-c9ff2de98296")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 166.37 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e4a1dd7-3573-4dff-b368-2d3bd9d79fad")
-		(property "Reference" "J38"
-			(at 168.91 173.0755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QWIIC"
-			(at 168.91 175.6155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 166.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfb65d27-0816-4ce9-9ac5-02d17826fcfd")
-		)
-		(pin "4"
-			(uuid "3a04baa3-afcb-439e-9343-b21e988d7923")
-		)
-		(pin "3"
-			(uuid "624f462f-f5f8-4908-a9c9-a9ddf7a30bed")
-		)
-		(pin "2"
-			(uuid "6a9efdaa-933f-4136-974b-126656396191")
-		)
-		(pin "MP"
-			(uuid "c6d166e2-7674-444b-805a-675ff11e2d44")
-		)
-		(instances
-			(project ""
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 248.92 107.95 0)
+		(at 232.41 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10264,7 +8704,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ee577eb-8ec0-4db1-b087-7f9000ff5d27")
 		(property "Reference" "J8"
-			(at 250.19 106.6799 0)
+			(at 233.68 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +8713,7 @@
 			)
 		)
 		(property "Value" "FET3 Drain"
-			(at 250.19 109.2199 0)
+			(at 233.68 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,8 +8721,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 248.92 107.95 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +8731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +8740,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +8749,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +8758,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +8767,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +8776,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +8785,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +8794,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +8803,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +8812,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 248.92 107.95 0)
+			(at 232.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10397,7 +8837,7 @@
 		(at 179.07 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ef86642-8532-4614-bff6-a460fd4c5f91")
@@ -10420,7 +8860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -10429,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -10438,7 +8878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -10532,145 +8972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 215.9 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "503c0cd8-70dc-43d7-8ffc-166cdcadac5e")
-		(property "Reference" "J42"
-			(at 217.17 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FET1"
-			(at 217.17 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 215.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47502dff-e20a-4c07-8332-0b1d372f16cd")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 264.16 26.67 0)
 		(unit 1)
@@ -10695,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x04"
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x04"
 			(at 264.16 26.67 0)
 			(effects
 				(font
@@ -11043,76 +9344,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 154.94 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56ebc4e8-0f68-4a2a-8e6d-5ad46a01e30d")
-		(property "Reference" "#PWR030"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 148.844 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 154.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "091437da-ac8e-4284-b025-55a0bbe13fe5")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 109.22 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "574bae3f-da70-40fd-a317-4d4624945af1")
@@ -11135,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -11144,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -11153,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -11251,7 +9487,7 @@
 		(at 109.22 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "574ef874-f015-4539-8fbf-d00d214de566")
@@ -11274,7 +9510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -11283,7 +9519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -11292,7 +9528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -11390,7 +9626,7 @@
 		(at 179.07 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "58856d0f-1a5e-4a97-ade9-50f42e0a7a69")
@@ -11413,7 +9649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -11422,7 +9658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -11431,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 97.79 0)
 			(effects
 				(font
@@ -11732,73 +9968,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5da0a0e0-954f-401c-aa0e-471e4355d70d")
-		(property "Reference" "#PWR029"
-			(at 148.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.606 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53d8801d-d8e5-4e25-9e63-130e57e5ec9a")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 229.87 113.03 0)
+		(at 213.36 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11807,7 +9978,7 @@
 		(fields_autoplaced yes)
 		(uuid "601a7808-25a5-475f-af99-786d43401dbd")
 		(property "Reference" "Q3"
-			(at 236.22 111.7599 0)
+			(at 219.71 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11816,7 +9987,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 236.22 114.2999 0)
+			(at 219.71 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11825,7 +9996,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 234.95 114.935 0)
+			(at 218.44 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11836,7 +10007,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 234.95 116.84 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,7 +10017,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 229.87 113.03 0)
+			(at 213.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11874,7 +10045,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 119.38 180)
+		(at 208.28 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11883,7 +10054,7 @@
 		(fields_autoplaced yes)
 		(uuid "62ddf9ff-93e0-49cd-af6c-6e3254469307")
 		(property "Reference" "R3"
-			(at 227.33 118.1099 0)
+			(at 210.82 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +10063,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 227.33 120.6499 0)
+			(at 210.82 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +10072,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.568 119.38 90)
+			(at 210.058 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +10081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +10090,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +10099,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +10108,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +10117,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +10126,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +10135,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +10144,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11982,7 +10153,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +10162,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.79 119.38 0)
+			(at 208.28 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +10255,7 @@
 		(at 179.07 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "63e9b346-917b-499d-b2d5-29fa8dd0b584")
@@ -12107,7 +10278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -12116,7 +10287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -12125,7 +10296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -12361,73 +10532,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "677e8f40-4703-4f70-8272-fc6f9da3b6cb")
-		(property "Reference" "#PWR037"
-			(at 140.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.526 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f695574c-1a48-4c6d-9e9e-103e25750fa7")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 248.92 64.77 0)
+		(at 232.41 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12436,7 +10542,7 @@
 		(fields_autoplaced yes)
 		(uuid "68d6b25a-41f7-4050-88ba-e22d00755f41")
 		(property "Reference" "J6"
-			(at 250.19 63.4999 0)
+			(at 233.68 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +10551,7 @@
 			)
 		)
 		(property "Value" "FET1 Drain"
-			(at 250.19 66.0399 0)
+			(at 233.68 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,8 +10559,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 248.92 64.77 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +10569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +10578,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +10587,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,7 +10596,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,7 +10605,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +10614,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +10623,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +10632,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +10641,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12544,7 +10650,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 248.92 64.77 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +10672,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 262.89 115.57 0)
+		(at 246.38 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12575,7 +10681,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b24045b-3770-427b-8ffc-ba95358bf5c5")
 		(property "Reference" "J13"
-			(at 264.16 114.2999 0)
+			(at 247.65 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +10690,7 @@
 			)
 		)
 		(property "Value" "FET3 3,3"
-			(at 264.16 116.8399 0)
+			(at 247.65 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,8 +10698,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 262.89 115.57 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +10708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +10717,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +10726,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +10735,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +10744,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +10753,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +10762,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +10771,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +10780,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +10789,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 262.89 115.57 0)
+			(at 246.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12844,7 +10950,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 250.19 91.44 0)
+		(at 233.68 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12852,7 +10958,7 @@
 		(dnp no)
 		(uuid "6d9fe756-29ac-4971-94bd-8f45bfa34f6c")
 		(property "Reference" "#PWR033"
-			(at 250.19 95.25 0)
+			(at 233.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +10967,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 89.916 0)
+			(at 237.49 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +10975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +10984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +10993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 250.19 91.44 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +11018,7 @@
 		(at 109.22 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6dc44c80-c6ae-4eaa-80fa-7f6ebbdab975")
@@ -12935,7 +11041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -12944,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -12953,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -13041,145 +11147,6 @@
 			(project "fakeTecv5"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "J26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 215.9 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f7e0cc0-40dc-4471-b9fc-97e894217ca6")
-		(property "Reference" "J47"
-			(at 217.17 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 215.9 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "559a2de1-cbcb-415e-9e34-23c83ec69a1c")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J47")
 					(unit 1)
 				)
 			)
@@ -13330,7 +11297,7 @@
 		(at 184.15 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "72bf4931-892d-4b1a-ac98-ecba804df79e")
@@ -13353,7 +11320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 114.3 0)
 			(effects
 				(font
@@ -13362,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 114.3 0)
 			(effects
 				(font
@@ -13371,7 +11338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 184.15 114.3 0)
 			(effects
 				(font
@@ -13662,7 +11629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 81.28 0)
+		(at 215.9 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13670,7 +11637,7 @@
 		(dnp no)
 		(uuid "7b15e08f-13b9-46bd-95f9-5196be16262b")
 		(property "Reference" "#PWR014"
-			(at 232.41 87.63 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13679,7 +11646,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.966 82.55 0)
+			(at 219.456 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +11654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 81.28 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +11663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 81.28 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13705,7 +11672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 81.28 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13730,7 +11697,7 @@
 		(at 184.15 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7bcab01e-b495-42bb-90a4-592247124cfc")
@@ -13753,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -13762,7 +11729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -13771,7 +11738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 184.15 111.76 0)
 			(effects
 				(font
@@ -13931,275 +11898,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 130.81 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c66cde5-3155-4a03-ae6c-d4bde57d3a53")
-		(property "Reference" "#PWR038"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 124.714 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9753814b-7b7b-4501-8a05-55f112306d93")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 154.94 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d3f121b-5967-4d2b-9180-12543f1191f2")
-		(property "Reference" "J46"
-			(at 156.21 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 156.21 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 154.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88df7278-fe4b-4077-88c0-6526e76d4a14")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dcc269b-51a6-4ca7-bf2b-fd718c17b0e3")
-		(property "Reference" "#PWR036"
-			(at 128.27 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 118.364 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "029ebbca-7106-402d-80ef-3fac34d2e459")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 48.26 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14258,145 +11956,6 @@
 			(project "fakeTecv5"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 135.89 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2cf3f4-c8b4-43ff-a990-13ce9b58efa8")
-		(property "Reference" "J37"
-			(at 137.16 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCL"
-			(at 137.16 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 135.89 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8757d41-ab33-4e7e-8303-473f147d062b")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -14747,154 +12306,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 156.21 185.42 0)
+		(at 179.07 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ae421a6-8ccd-4f37-9869-5af276b9da01")
-		(property "Reference" "J41"
-			(at 157.48 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 156.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93b44642-9c91-40ff-a200-14e09d61ea3a")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 184.15 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
 		(uuid "8f367bdb-c037-41dd-b1b5-c2dfe8cc03c0")
 		(property "Reference" "J34"
-			(at 185.42 67.31 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +12323,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 185.42 68.5799 0)
+			(at 180.34 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,8 +12332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
-			(at 184.15 67.31 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,8 +12341,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 184.15 67.31 0)
+		(property "Datasheet" "~"
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,8 +12350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 184.15 67.31 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14940,7 +12360,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +12369,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14958,7 +12378,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,7 +12387,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14976,7 +12396,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +12405,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14994,7 +12414,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15003,7 +12423,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 184.15 67.31 0)
+			(at 179.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15232,7 +12652,7 @@
 		(at 109.22 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "913b1c12-aa74-422f-8c4e-ff02b6fd5143")
@@ -15255,7 +12675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -15264,7 +12684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -15273,7 +12693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -15367,76 +12787,11 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 208.28 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "914e59dc-aaaa-415f-83c3-9c9a01571232")
-		(property "Reference" "#PWR039"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 202.946 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4eb5722-75f4-43dc-8433-8cd8212c5281")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 109.22 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "91a8d37a-dce6-4a8a-8543-15aa1bbe2311")
@@ -15459,7 +12814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -15468,7 +12823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -15477,7 +12832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 64.77 0)
 			(effects
 				(font
@@ -15572,7 +12927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 124.46 0)
+		(at 215.9 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15580,7 +12935,7 @@
 		(dnp no)
 		(uuid "91cc2408-b35d-4196-921f-eb8bdcf49066")
 		(property "Reference" "#PWR016"
-			(at 232.41 130.81 0)
+			(at 215.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +12944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 235.966 125.73 0)
+			(at 219.456 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,7 +12952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 124.46 0)
+			(at 215.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,7 +12961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 124.46 0)
+			(at 215.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15615,7 +12970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 124.46 0)
+			(at 215.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15636,147 +12991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 217.17 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92bab2d2-2a1c-4172-8d28-bad8f3b5d6a6")
-		(property "Reference" "J49"
-			(at 218.44 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 217.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "488ac62d-44df-4471-86c1-8878a45ba919")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 224.79 97.79 180)
+		(at 208.28 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15785,7 +13001,7 @@
 		(fields_autoplaced yes)
 		(uuid "956d033a-0bd2-477d-8c20-78e4f4deed03")
 		(property "Reference" "R2"
-			(at 227.33 96.5199 0)
+			(at 210.82 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +13010,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 227.33 99.0599 0)
+			(at 210.82 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15803,7 +13019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.568 97.79 90)
+			(at 210.058 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15812,7 +13028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +13037,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15830,7 +13046,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15839,7 +13055,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,7 +13064,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15857,7 +13073,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15866,7 +13082,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15875,7 +13091,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +13100,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15893,7 +13109,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.79 97.79 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +13134,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 261.62 72.39 0)
+		(at 245.11 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15927,7 +13143,7 @@
 		(fields_autoplaced yes)
 		(uuid "95c435a4-d507-4bbc-93c3-3415b5e46093")
 		(property "Reference" "J11"
-			(at 262.89 71.1199 0)
+			(at 246.38 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +13152,7 @@
 			)
 		)
 		(property "Value" "FET1 3,3"
-			(at 262.89 73.6599 0)
+			(at 246.38 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15944,8 +13160,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 261.62 72.39 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,7 +13170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,7 +13179,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15972,7 +13188,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +13197,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15990,7 +13206,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +13215,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +13224,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +13233,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +13242,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,7 +13251,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 261.62 72.39 0)
+			(at 245.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +13501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "faketec:HT-RA62"
+		(property "Footprint" "HeltecModule:HT-RA62"
 			(at 134.62 47.498 0)
 			(effects
 				(font
@@ -16813,7 +14029,7 @@
 		(at 109.22 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a1be8a33-4216-41db-8767-c232b78c326f")
@@ -16836,7 +14052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -16845,7 +14061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -16854,7 +14070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -16952,7 +14168,7 @@
 		(at 179.07 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a22e7460-ebf0-4716-b6a6-3947a98f03fc")
@@ -16975,7 +14191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -16984,7 +14200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -16993,7 +14209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -17088,7 +14304,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 229.87 91.44 0)
+		(at 213.36 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17097,7 +14313,7 @@
 		(fields_autoplaced yes)
 		(uuid "aab9828b-5c7c-4e54-821f-e9a3eeb51828")
 		(property "Reference" "Q2"
-			(at 236.22 90.1699 0)
+			(at 219.71 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,7 +14322,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 236.22 92.7099 0)
+			(at 219.71 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17115,7 +14331,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 234.95 93.345 0)
+			(at 218.44 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17126,7 +14342,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 234.95 95.25 0)
+			(at 218.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17136,7 +14352,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 229.87 91.44 0)
+			(at 213.36 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +14380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 76.2 180)
+		(at 208.28 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17173,7 +14389,7 @@
 		(fields_autoplaced yes)
 		(uuid "af17a7c8-2739-4219-850d-dfb80b1aaa60")
 		(property "Reference" "R1"
-			(at 227.33 74.9299 0)
+			(at 210.82 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,7 +14398,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 227.33 77.4699 0)
+			(at 210.82 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +14407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 226.568 76.2 90)
+			(at 210.058 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,7 +14416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +14425,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +14434,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +14443,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17236,7 +14452,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +14461,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17254,7 +14470,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +14479,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17272,7 +14488,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17281,7 +14497,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 224.79 76.2 0)
+			(at 208.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17364,71 +14580,6 @@
 			(project "fakeTecv5"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b46d0521-8fc8-4f46-a2c7-f69579262707")
-		(property "Reference" "#PWR035"
-			(at 118.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.126 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38edfa4c-c2ea-4025-bba2-70908746a0f4")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17526,7 +14677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x04"
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x04"
 			(at 270.51 144.78 0)
 			(effects
 				(font
@@ -17648,7 +14799,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 229.87 69.85 0)
+		(at 213.36 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17657,7 +14808,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdd2229a-7529-49a4-9415-58a8b443dd2b")
 		(property "Reference" "Q1"
-			(at 236.22 68.5799 0)
+			(at 219.71 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17666,7 +14817,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 236.22 71.1199 0)
+			(at 219.71 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,7 +14826,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 234.95 71.755 0)
+			(at 218.44 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17686,7 +14837,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 234.95 73.66 0)
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,7 +14847,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 229.87 69.85 0)
+			(at 213.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,7 +14875,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 114.3 0)
+		(at 241.3 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17732,7 +14883,7 @@
 		(dnp no)
 		(uuid "bffa0fe8-5ec1-4779-9700-958b0e440fb1")
 		(property "Reference" "#PWR034"
-			(at 257.81 118.11 0)
+			(at 241.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +14892,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 261.62 112.776 0)
+			(at 245.11 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17749,7 +14900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 114.3 0)
+			(at 241.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17758,7 +14909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 114.3 0)
+			(at 241.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +14918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 114.3 0)
+			(at 241.3 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17792,7 +14943,7 @@
 		(at 179.07 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c037e9e9-5715-4d67-ab65-c9d1b2f629e4")
@@ -17815,7 +14966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -17824,7 +14975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -17833,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -17931,7 +15082,7 @@
 		(at 109.22 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c747da8f-81ad-4094-bcaa-7e3f5390ffc1")
@@ -17954,7 +15105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -17963,7 +15114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -17972,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 82.55 0)
 			(effects
 				(font
@@ -18067,15 +15218,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 184.15 64.77 0)
+		(at 179.07 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9ec5da7-3665-4265-907a-daab990fa8ce")
 		(property "Reference" "J35"
-			(at 185.42 64.77 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18084,7 +15235,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 185.42 66.0399 0)
+			(at 180.34 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18093,8 +15244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
-			(at 184.15 64.77 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,8 +15253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 184.15 64.77 0)
+		(property "Datasheet" "~"
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18111,8 +15262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 184.15 64.77 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,7 +15272,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18130,7 +15281,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18139,7 +15290,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18148,7 +15299,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18157,7 +15308,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18166,7 +15317,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18175,7 +15326,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18184,7 +15335,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 184.15 64.77 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18206,7 +15357,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 256.54 71.12 0)
+		(at 240.03 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18214,7 +15365,7 @@
 		(dnp no)
 		(uuid "cb9a5cfd-2e4f-492f-b210-eacde4a95189")
 		(property "Reference" "#PWR032"
-			(at 256.54 74.93 0)
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18223,7 +15374,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 260.35 69.596 0)
+			(at 243.84 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18231,7 +15382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 71.12 0)
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18240,7 +15391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 71.12 0)
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18249,7 +15400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 256.54 71.12 0)
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18339,7 +15490,7 @@
 		(at 179.07 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cca0bbcb-2c12-47d4-9afe-3e7be8b19482")
@@ -18362,7 +15513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -18371,7 +15522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -18380,7 +15531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -18613,145 +15764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 215.9 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "def4c978-6981-4000-8971-56b1e3abb677")
-		(property "Reference" "J43"
-			(at 217.17 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FET2"
-			(at 217.17 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "085e2aac-2dd8-46b5-ba02-a10f15260f87")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 39.37 82.55 0)
 		(unit 1)
@@ -18960,7 +15972,7 @@
 		(at 109.22 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "efbd603d-516a-410d-95ec-1df04a617284")
@@ -18983,7 +15995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -18992,7 +16004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -19001,7 +16013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -19099,7 +16111,7 @@
 		(at 109.22 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d49fee-d029-4354-8030-6426d004a7bc")
@@ -19122,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -19131,7 +16143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -19140,7 +16152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -19300,7 +16312,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 248.92 86.36 0)
+		(at 232.41 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19308,7 +16320,7 @@
 		(dnp no)
 		(uuid "fa253f60-01d7-4344-81c2-8a938c2f2487")
 		(property "Reference" "J7"
-			(at 250.19 85.0899 0)
+			(at 233.68 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19317,7 +16329,7 @@
 			)
 		)
 		(property "Value" "FET2 Drain"
-			(at 250.19 87.122 0)
+			(at 233.68 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19325,8 +16337,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 248.92 86.36 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19335,7 +16347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,7 +16356,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +16365,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19362,7 +16374,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19371,7 +16383,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19380,7 +16392,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19389,7 +16401,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19398,7 +16410,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19407,7 +16419,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19416,7 +16428,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 248.92 86.36 0)
+			(at 232.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19582,7 +16594,7 @@
 		(at 179.07 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd729a95-30da-481b-982d-ee67d70a5aba")
@@ -19605,7 +16617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "faketec:TestPoint_Pad_Slim_D0.6mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -19614,7 +16626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -19623,7 +16635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 179.07 92.71 0)
 			(effects
 				(font
@@ -19718,7 +16730,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 255.27 92.71 0)
+		(at 238.76 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19727,7 +16739,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff598bc4-4b1d-4935-8d61-00300977e4de")
 		(property "Reference" "J12"
-			(at 256.54 91.4399 0)
+			(at 240.03 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19736,7 +16748,7 @@
 			)
 		)
 		(property "Value" "FET2 3,3"
-			(at 256.54 93.9799 0)
+			(at 240.03 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19744,8 +16756,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 255.27 92.71 0)
+		(property "Footprint" "SMD_PAD:SMD_PAD_1x01"
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19754,7 +16766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19763,7 +16775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19772,7 +16784,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +16793,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +16802,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19799,7 +16811,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19808,7 +16820,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19817,7 +16829,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19826,7 +16838,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19835,7 +16847,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 255.27 92.71 0)
+			(at 238.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,145 +16862,6 @@
 			(project "fakeTecv5"
 				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 215.9 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb8bc63-a188-45e0-8548-18de3ca4d6ad")
-		(property "Reference" "J48"
-			(at 217.17 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "faketec:SMD_PAD_1x01"
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 215.9 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbd3134-d369-456d-a5f7-7a1a1f2dc2b2")
-		)
-		(instances
-			(project "fakeTecv5"
-				(path "/9f57df6b-a9d3-4597-bf34-a2cbfc394ff5"
-					(reference "J48")
 					(unit 1)
 				)
 			)
