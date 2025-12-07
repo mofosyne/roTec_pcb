@@ -646,12 +646,6 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -682,32 +676,38 @@
         },
         {
           "group_by": false,
-          "label": "Shopping",
-          "name": "Shopping",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Package",
           "name": "Package",
           "show": true
         },
         {
           "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "MPD",
           "name": "MPD",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPL",
           "name": "MPL",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Shopping",
+          "name": "Shopping",
           "show": true
         }
       ],
@@ -716,7 +716,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Shopping"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
