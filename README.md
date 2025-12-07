@@ -1,18 +1,24 @@
-# fakeTec_pcb
-My personal modification of the fakeTec, a low-cost nRF52 device with the form-factor of the Heltec v2, v3, & v4 devices 
-compatible with [Meshtastic](https://meshtastic.org/)®.
+# roTec_pcb
+
+| Front                               | Back                              |
+|:------------------------------------|:----------------------------------|
+| ![Front of PCB](./Images/front.png) | ![Back of PCB](./Images/back.png) |
+
+This [Jacob's](https://github.com/jtljac) fork of the fakeTec (With enhancement from [Brian](https://github.com/mofosyne)), a low-cost nRF52 device with the form-factor of the Heltec v2, v3, & v4 devices 
+compatible with [Meshtastic](https://meshtastic.org/)®. Focusing on creating a design that will support the use of rotary encoders.
 
 This design is specifically based off of [Šimon Hořánek's](https://github.com/ShimonHoranek) 
 [fakeTec V5 Rev. B](https://github.com/gargomoma/fakeTec_pcb/issues/24), licensed under 
 [CERN-OHL-P-2.0](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
 
-# Pictures
-<details><summary>Click to open</summary>
+## Design Documentations
 
-| Front                               | Back                              |
-|:------------------------------------|:----------------------------------|
-| ![Front of PCB](./Images/front.png) | ![Back of PCB](./Images/back.png) |
-</details>
+![](./Circuit/documentation/fakeTecv5.svg)
+
+* [Schematic as pdf](./Circuit/documentation/fakeTecv5.pdf)
+* [Schematic Bill Of Materials](./Circuit/documentation/fakeTecv5.csv)
+* [Interactive BOM](./Circuit/documentation/ibom.html)
+* [PCB Artwork pdf](./Circuit/documentation/fakeTecv5__Assembly.pdf)
 
 ## Features
 - Small size based on Heltec v3: You can use the same cases!
@@ -34,6 +40,11 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 - Cleaned up schematic
   - Changed Pins representing sides of MCUs to symbols fully representing said MCU
   - Changed labels to my preferred naming scheme
+  - Updated/Cleaned up symbol fields to make each component easier to find
+    - MPN: Manufacturer Parts Number
+    - MPD: Manufacturer Parts Description
+    - MPL: Manufacturer Parts Link
+    - Shopping: Link to search pages used to locate parts. Useful for finding alternatives.
 - Setup netclasses
 - Shifted pads `P1.01`, `P1.02`, and `P1.07` to where I'm pretty sure they're supposed to be
 - Removed jumper for BMS
@@ -58,7 +69,12 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 - Added a lot more stitching between front and back ground planes
 - Removed vias from on top of silkscreen and off of pads
 - Attempted to reduce layer crossings
-
+- Added test pads for the nice!nano/promicro to help users to figure out if the pads is correctly soldered down.
+- Added connectors recommended by [this hackaday article ](https://hackaday.com/2022/05/04/the-connector-zoo-i2c-ecosystems) for easy attachment for i2c devices. Pads also exposed in case you want to solder the i2c device down.
+- Added buzzer pads so that buzzer can be included in a more compact manner.
+- Added pads to expose all the GPIO pins in case users want to use the GPIO for other purpose.
+- Added additional marking to indicate resistance and capacitor values
+- Added BMS bypass in case users are using batteries with integrated protection already
 
 # Variants
 
@@ -85,10 +101,16 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 | 2x smd Button                  | [LCSC](https://www.lcsc.com/product-detail/C41427500.html)                                                                                  | You want something around 4 x 3 x 2                                                                       |
 | OLED SSD1306 i2c (optional)    | [AliExpress](https://www.aliexpress.com/item/1005005970901119.html)                                                                         |                                                                                                           |
 | Battery connection (optional)  | [AliExpress](https://www.aliexpress.com/item/1005002564191148.html)                                                                         | This is an example.                                                                                       |
+| i2c connector port (optional)  | [LCSC](https://www.lcsc.com/product-detail/C51940130.html?s_z=n_SM04B-SRSS-TB)                                                              | https://hackaday.com/2022/05/04/the-connector-zoo-i2c-ecosystems                                          |
+| Buzzer 5x5mm (optional)        | [LCSC](https://www.lcsc.com/product-detail/C7544810.html?s_z=n_buzzer%25205020)                                                             | Buzzer 5020 is coil based, so must use N-Chn mosfet.                                                      |
 | Glue Stick Sprint Antenna      | [AliExpress](https://www.aliexpress.com/item/1005008671071222.html)                                                                         |                                                                                                           |
-| Antenna (Recommended           | [AliExpress](https://www.aliexpress.com/item/1005004607615001.html)                                                                         |                                                                                                           |
+| Antenna (Recommended)          | [AliExpress](https://www.aliexpress.com/item/1005004607615001.html)                                                                         |                                                                                                           |
 | Antenna pigtail (recommended)  | [AliExpress](https://www.aliexpress.com/item/4001287491018.html)                                                                            | It may underperformed with a cheap black pigtail.                                                         |
 | PCB                            |                                                                                                                                             | Use your favourite company to get the PCB. I use [JLCPCB](https://jlcpcb.com/)                            |
+
+# Supported Cases
+
+Refer to [this page](./Cases/README.md) for details on supported cases that this design will fit into.
 
 # About Meshtastic
 [Meshtastic](https://meshtastic.org/)® is a registered trademark of Meshtastic LLC. Meshtastic software components are released under various licenses, see github for details.
