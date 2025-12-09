@@ -4086,7 +4086,7 @@
 		)
 		(uuid "617b059e-5e2d-4bb7-b7c4-a2159a04187c")
 	)
-	(text_box "R4 = 1.0Mohms\nR5 = 1.5Mohms\nADC_Multiplier = (R4 + R5) / R4\n   = 2.5"
+	(text_box "R4 = 1.0Mohms\nR5 = 1.5Mohms\nADC_Multiplier = R5 / (R4 + R5) \n   = 1.6666666666666667"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
 		(size 36.83 7.62)
@@ -4146,7 +4146,7 @@
 		)
 		(uuid "adbb9771-0b62-4cd9-a42f-b11b2ab38440")
 	)
-	(text_box "R4 = 680kohms\nR5 = 1.0Mohms\nADC_Multiplier = (R4 + R5) / R4\n   = 2.4705882352941178"
+	(text_box "R4 = 680kohms\nR5 = 1.0Mohms\nADC_Multiplier = (R4 + R5) / R5\n   = 1.68"
 		(exclude_from_sim no)
 		(at 15.24 26.67 0)
 		(size 36.83 7.62)
@@ -4166,7 +4166,7 @@
 		)
 		(uuid "b8e521a4-ea4b-4a56-9f1c-c85921f4385f")
 	)
-	(text_box "R4 = 220kohms\nR5 = 330kohms\nADC_Multiplier = (R4 + R5) / R4\n   = 2.5"
+	(text_box "R4 = 220kohms\nR5 = 330kohms\nADC_Multiplier = (R4 + R5) / R5\n   = 1.6666666666666667"
 		(exclude_from_sim no)
 		(at 15.24 35.56 0)
 		(size 36.83 7.62)
