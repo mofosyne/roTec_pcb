@@ -3900,7 +3900,7 @@
 	)
 	(text "Battery voltage divider for measuring voltage"
 		(exclude_from_sim no)
-		(at 14.986 16.256 0)
+		(at 14.986 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4023,6 +4023,26 @@
 		)
 		(uuid "d69d334b-df24-419b-9ac5-eef2efd3b0c2")
 	)
+	(text "Vadc"
+		(exclude_from_sim no)
+		(at 69.596 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfc18db8-3ba8-4cf6-911a-fcce9fa356a0")
+	)
+	(text "Vbatt"
+		(exclude_from_sim no)
+		(at 69.088 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2fbf120-b9c6-497b-bf34-99944c17a215")
+	)
 	(text "Each MOSFET is part of a \n3v3/ground pair of pads, \nwith the FET controlling \nthe ground.\nFET1 is also connected to \nthe GPS pads' Ground."
 		(exclude_from_sim no)
 		(at 278.638 130.302 0)
@@ -4086,26 +4106,6 @@
 		)
 		(uuid "617b059e-5e2d-4bb7-b7c4-a2159a04187c")
 	)
-	(text_box "R4 = 1.0Mohms\nR5 = 1.5Mohms\nADC_Multiplier = R5 / (R4 + R5) \n   = 1.6666666666666667"
-		(exclude_from_sim no)
-		(at 15.24 17.78 0)
-		(size 36.83 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left top)
-		)
-		(uuid "954e04ca-775b-4e10-8585-670006a79b87")
-	)
 	(text_box "Onboard buttons, RST for resetting"
 		(exclude_from_sim no)
 		(at 35.56 91.44 0)
@@ -4128,8 +4128,8 @@
 	)
 	(text_box "C1 used for getting more stable and accurate readings"
 		(exclude_from_sim no)
-		(at 15.24 44.45 0)
-		(size 36.83 6.35)
+		(at 15.24 38.1 0)
+		(size 34.29 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4146,10 +4146,10 @@
 		)
 		(uuid "adbb9771-0b62-4cd9-a42f-b11b2ab38440")
 	)
-	(text_box "R4 = 680kohms\nR5 = 1.0Mohms\nADC_Multiplier = (R4 + R5) / R5\n   = 1.68"
+	(text_box "R4 = 470\nR5 = 680\n\n# Voltage Division Equation\n# Vadc = Vbatt * (R5 / (R4 + R5))\n\n# Voltage Vbatt --> Vadc ratio\n# ADC_Division = Vadc / Vbatt = (R5 / (R4 + R5))\nR5 / (R4 + R5) = 0.591304347826087\n\n# Voltage Vadc --> Vbatt ratio\n# ADC_Multiplier = Vadc / Vbatt = (R4 + R5) / R5\n(R4 + R5) / R5 = 1.6911764705882353"
 		(exclude_from_sim no)
-		(at 15.24 26.67 0)
-		(size 36.83 7.62)
+		(at 15.24 19.05 0)
+		(size 34.29 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4160,31 +4160,11 @@
 		)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(size 0.762 0.762)
 			)
 			(justify left top)
 		)
 		(uuid "b8e521a4-ea4b-4a56-9f1c-c85921f4385f")
-	)
-	(text_box "R4 = 220kohms\nR5 = 330kohms\nADC_Multiplier = (R4 + R5) / R5\n   = 1.6666666666666667"
-		(exclude_from_sim no)
-		(at 15.24 35.56 0)
-		(size 36.83 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left top)
-		)
-		(uuid "c5f5a4b6-3069-4b7a-876e-4e53de599473")
 	)
 	(text_box "The N!ce Nano already has overvoltage protection, but does not prevent overdischarge during use.\nThis BMS ensures that the device shuts off if the battery voltage drops below 2.9v"
 		(exclude_from_sim no)
@@ -4205,6 +4185,26 @@
 			(justify left top)
 		)
 		(uuid "d0614186-ed99-4573-9ae3-9e968b056bbe")
+	)
+	(text_box "firmware/variants/nrf52840/diy/nrf52_promicro_diy_tcxo/variant.h\n#define VBAT_DIVIDER_COMP (1.73)\n#define ADC_MULTIPLIER VBAT_DIVIDER_COMP\n"
+		(exclude_from_sim no)
+		(at 15.24 45.72 0)
+		(size 41.91 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "ddf4b470-3f61-434e-a65f-92caf3147654")
 	)
 	(text_box "Short JP1 to bypass battery protection if XB8089DO is not populated"
 		(exclude_from_sim no)
@@ -4287,16 +4287,16 @@
 		(uuid "3defc343-8b05-4b64-a931-7193e4a724a5")
 	)
 	(junction
+		(at 72.39 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e972e12-da25-4208-83f4-3326cc798d68")
+	)
+	(junction
 		(at 226.06 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "514fcf2b-65d6-41fd-8810-c1c62a1bddc8")
-	)
-	(junction
-		(at 63.5 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59b87514-0fea-45a0-b47c-e311c93943e1")
 	)
 	(junction
 		(at 59.69 161.29)
@@ -4353,7 +4353,7 @@
 		(uuid "8812ce48-ea6b-4d08-8808-6a2d22066b11")
 	)
 	(junction
-		(at 72.39 30.48)
+		(at 72.39 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92ac5303-b536-4d21-ba03-2e0fb2559145")
@@ -4407,6 +4407,12 @@
 		(uuid "d04b5461-a59c-425d-9f93-dc427e860ebe")
 	)
 	(junction
+		(at 62.23 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de8faa5f-abb4-4ff2-956a-bc86cd29d310")
+	)
+	(junction
 		(at 24.13 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4429,12 +4435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef24ac9c-cb63-4dd2-8007-ab7af92c806f")
-	)
-	(junction
-		(at 72.39 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fba706a9-2744-4e56-876e-7eb6d828432d")
 	)
 	(junction
 		(at 114.3 74.93)
@@ -4538,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 63.5 30.48)
+			(xy 62.23 34.29) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 30.48) (xy 63.5 30.48)
+			(xy 53.34 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 72.39 40.64)
+			(xy 62.23 45.72) (xy 72.39 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5128,7 +5128,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 20.32) (xy 72.39 21.59)
+			(xy 62.23 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417b7fb2-caf2-4b1c-827c-fb59afa7d414")
+	)
+	(wire
+		(pts
+			(xy 64.77 20.32) (xy 64.77 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5408,6 +5418,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 21.59) (xy 72.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60438c55-2e74-4b52-9496-459a13d27323")
+	)
+	(wire
+		(pts
 			(xy 132.08 166.37) (xy 143.51 166.37)
 		)
 		(stroke
@@ -5538,7 +5558,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 31.75) (xy 72.39 30.48)
+			(xy 72.39 36.83) (xy 72.39 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5638,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 72.39 43.18)
+			(xy 72.39 44.45) (xy 72.39 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5675,6 +5695,16 @@
 			(type default)
 		)
 		(uuid "7a592ed5-307a-4ef1-82f5-99e9dcd9d014")
+	)
+	(wire
+		(pts
+			(xy 72.39 21.59) (xy 72.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a98325b-d2de-49e0-9283-5e04a8633707")
 	)
 	(wire
 		(pts
@@ -5798,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 39.37) (xy 63.5 40.64)
+			(xy 62.23 41.91) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5968,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 29.21) (xy 72.39 30.48)
+			(xy 72.39 30.48) (xy 72.39 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6218,6 +6248,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 45.72) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b66cea-15e1-4dd4-b659-e93afb002dde")
+	)
+	(wire
+		(pts
 			(xy 254 66.04) (xy 242.57 66.04)
 		)
 		(stroke
@@ -6278,16 +6318,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 72.39 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3e8939-8ea1-46c2-a35d-8c2d86af5cab")
-	)
-	(wire
-		(pts
 			(xy 208.28 88.9) (xy 224.79 88.9)
 		)
 		(stroke
@@ -6315,16 +6345,6 @@
 			(type default)
 		)
 		(uuid "c00022e5-2b48-457a-a6df-4311a0572a60")
-	)
-	(wire
-		(pts
-			(xy 63.5 30.48) (xy 72.39 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0589611-5fa5-41e5-b9ea-85ebaef2df45")
 	)
 	(wire
 		(pts
@@ -7027,7 +7047,7 @@
 		(uuid "294514f7-fb79-4abb-a7f7-72c1814999b8")
 	)
 	(label "Batt%"
-		(at 58.42 30.48 180)
+		(at 58.42 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8253,7 +8273,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 43.18 0)
+		(at 72.39 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8262,7 +8282,7 @@
 		(dnp no)
 		(uuid "12c12208-a79f-4d26-8056-fcaef1717a45")
 		(property "Reference" "#PWR017"
-			(at 72.39 49.53 0)
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.834 44.45 0)
+			(at 68.834 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 43.18 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 43.18 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 43.18 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +9018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 35.56 0)
+		(at 72.39 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9007,7 +9027,7 @@
 		(dnp no)
 		(uuid "286813fe-c570-42e8-86a4-3493d5dab552")
 		(property "Reference" "R5"
-			(at 68.072 34.29 0)
+			(at 68.072 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +9036,7 @@
 			)
 		)
 		(property "Value" "1.0M"
-			(at 66.294 36.83 0)
+			(at 66.294 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9045,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 74.168 35.56 90)
+			(at 74.168 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +9054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 35.56 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9063,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 35.56 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9072,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 72.39 35.56 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +9081,7 @@
 			)
 		)
 		(property "Shopping" "https://www.lcsc.com/search?q=1M%25200805&s_z=n_1M%25200805"
-			(at 72.39 35.56 0)
+			(at 72.39 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9292,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 35.56 0)
+		(at 62.23 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9282,7 +9302,7 @@
 		(fields_autoplaced yes)
 		(uuid "30543e16-9034-4703-a612-c5a679fb95e8")
 		(property "Reference" "C1"
-			(at 59.69 34.2899 0)
+			(at 58.42 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9311,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 59.69 36.8299 0)
+			(at 58.42 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9320,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 62.5348 39.37 0)
+			(at 61.2648 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 35.56 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9338,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 35.56 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9347,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 63.5 35.56 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9356,7 @@
 			)
 		)
 		(property "Shopping" "https://www.lcsc.com/search?q=100nF%25200805&s_z=n_100nF%25200805"
-			(at 63.5 35.56 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10567,7 +10587,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 25.4 0)
+		(at 72.39 26.67 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10576,7 +10596,7 @@
 		(dnp no)
 		(uuid "59ceed22-ee58-440f-9348-2c307ca75361")
 		(property "Reference" "R4"
-			(at 70.612 24.13 0)
+			(at 70.612 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10605,7 @@
 			)
 		)
 		(property "Value" "680K"
-			(at 70.612 26.67 0)
+			(at 70.612 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +10614,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 70.612 25.4 90)
+			(at 70.612 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 25.4 0)
+			(at 72.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10632,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 25.4 0)
+			(at 72.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10641,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 72.39 25.4 0)
+			(at 72.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10650,7 @@
 			)
 		)
 		(property "Shopping" "https://www.lcsc.com/search?q=680K%25200805&s_z=n_680K%25200805"
-			(at 72.39 25.4 0)
+			(at 72.39 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14575,7 +14595,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 72.39 20.32 0)
+		(at 64.77 20.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14584,7 +14604,7 @@
 		(dnp no)
 		(uuid "b9016bed-3124-443b-ad2e-d82f3e1f5641")
 		(property "Reference" "#PWR012"
-			(at 72.39 24.13 0)
+			(at 64.77 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14593,7 +14613,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 71.12 16.51 0)
+			(at 63.5 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,7 +14621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 20.32 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 20.32 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 72.39 20.32 0)
+			(at 64.77 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
