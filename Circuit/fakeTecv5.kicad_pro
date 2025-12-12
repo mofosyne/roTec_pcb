@@ -94,10 +94,6 @@
         [
           "courtyards_overlap|123027827|48607462|2cc0f477-0da6-4ad4-922a-9306b16d7df4|8db81f29-e884-4166-a909-94431ed73d36",
           ""
-        ],
-        [
-          "starved_thermal|122250980|45131010|6807987d-e450-40e6-906d-811dae8d16e7|2149a4cb-8457-4b68-8925-e5afea471925|B.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -147,7 +143,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
