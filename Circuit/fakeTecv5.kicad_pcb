@@ -25830,7 +25830,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 122.1 38.1 0)
+		(at 118.21 38.15 0)
 		(layer "B.SilkS")
 		(uuid "2f4467c2-6a96-4561-b0b8-4819ced65df7")
 		(effects
@@ -25926,7 +25926,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 122 39.2 0)
+		(at 118.21 39.15 0)
 		(layer "B.SilkS")
 		(uuid "671fbf2b-82ac-4cff-b5df-b339f39be762")
 		(effects
@@ -25950,7 +25950,7 @@
 		)
 	)
 	(gr_text "GND\n"
-		(at 122.2 36.1 0)
+		(at 118.24 36.13 0)
 		(layer "B.SilkS")
 		(uuid "6c2accc4-5b2b-446e-a568-55e9d1e2b54e")
 		(effects
@@ -26371,8 +26371,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3.3V"
-		(at 122.4 37.1 0)
+	(gr_text "VCC"
+		(at 118.17 37.16 0)
 		(layer "B.SilkS")
 		(uuid "f37fe8ab-7253-4987-8fc3-9c66fbd922a7")
 		(effects
