@@ -4695,7 +4695,7 @@
 		)
 		(uuid "302d4934-a1e9-4eba-b8b9-c2f1d2cf878c")
 	)
-	(text "Mosfets used for switching high current external periferals"
+	(text "Mosfets used for switching high current external perpherial"
 		(exclude_from_sim no)
 		(at 178.562 55.88 0)
 		(effects
@@ -8160,16 +8160,6 @@
 		)
 		(uuid "045ae061-98a6-45ed-a247-ef617c2444b7")
 	)
-	(label "ENC_B"
-		(at 247.65 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0754eb99-766b-40fa-81ad-facf77f97cdd")
-	)
 	(label "SDA"
 		(at 154.94 48.26 180)
 		(effects
@@ -8480,16 +8470,6 @@
 		)
 		(uuid "6a8190db-8650-46f5-ad42-c2fcbc3b9609")
 	)
-	(label "ENC_A"
-		(at 247.65 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6dc6acba-adbb-4d8c-8850-7202baa97429")
-	)
 	(label "BUSY"
 		(at 135.89 36.83 180)
 		(effects
@@ -8509,6 +8489,16 @@
 			(justify left bottom)
 		)
 		(uuid "74d9d8c4-128a-4f88-b7f3-80a3a432ba73")
+	)
+	(label "ENC_A"
+		(at 247.65 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76291ba7-fc97-4e79-94bf-bff466fc07a7")
 	)
 	(label "BUZZER"
 		(at 251.46 115.57 180)
@@ -8899,6 +8889,16 @@
 			(justify right bottom)
 		)
 		(uuid "ead3b708-3f64-45d5-8161-68c88a71a2c3")
+	)
+	(label "ENC_B"
+		(at 247.65 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f084823d-14d5-4e4c-b34d-49be336f5bb4")
 	)
 	(label "SCK"
 		(at 153.67 90.17 180)
