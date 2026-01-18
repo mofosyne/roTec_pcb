@@ -15,6 +15,8 @@ This design is specifically based off of [Šimon Hořánek's](https://github.com
 [fakeTec V5 Rev. B](https://github.com/gargomoma/fakeTec_pcb/issues/24), licensed under 
 [CERN-OHL-P-2.0](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
 
+**[For more meshtastic/meshcore/lora DIY nodes, do check this list out!](https://github.com/porkcube/meshtastic-diy-nodes)**
+
 ## Design Documentations (Through Hole Version)
 
 ![](./Circuit_Through_Hole/documentation/svg/fakeTecv5.svg)
