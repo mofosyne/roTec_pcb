@@ -1,19 +1,27 @@
 # roTec_pcb
 
-| Front (Through Hole Version)        | Back (Through Hole Version)       |
-|:------------------------------------|:----------------------------------|
-| ![Front of PCB](./Circuit_Through_Hole/documentation/front.png) | ![Back of PCB](./Circuit_Through_Hole/documentation/back.png) |
-
 | Front                               | Back                              |
 |:------------------------------------|:----------------------------------|
 | ![Front of PCB](./Circuit/documentation/front.png) | ![Back of PCB](./Circuit/documentation/back.png) |
 
-This [Jacob's](https://github.com/jtljac) fork of the fakeTec (With enhancement from [Brian](https://github.com/mofosyne)), a low-cost nRF52 device with the form-factor of the Heltec v2, v3, & v4 devices 
-compatible with [Meshtastic](https://meshtastic.org/)®. Focusing on creating a design that will support the use of rotary encoders.
+[Release Files For PCB Revision 5.3 (All features except for GPS tested) (Recommended)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.3)
 
-This design is specifically based off of [Šimon Hořánek's](https://github.com/ShimonHoranek) 
-[fakeTec V5 Rev. B](https://github.com/gargomoma/fakeTec_pcb/issues/24), licensed under 
-[CERN-OHL-P-2.0](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
+<details>
+<summary>Revision 5.4 (Though Hole Version) (Untested) (Experimental)</summary>
+
+| Front (Through Hole Version)        | Back (Through Hole Version)       |
+|:------------------------------------|:----------------------------------|
+| ![Front of PCB](./Circuit_Through_Hole/documentation/front.png) | ![Back of PCB](./Circuit_Through_Hole/documentation/back.png) |
+
+[Release Files For PCB Revision 5.4 (Though Hole Version) (Untested) (Experimental)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.4)
+
+</details>
+
+RoTec is a low-cost nRF52 device with the form-factor of the Heltec v2, v3, & v4 devices compatible with [Meshtastic](https://meshtastic.org/)®, designed for use with rotary encoders as well as being easy to follow for less technical users.
+
+The history of this design is that it is a fork of [Jacob's](https://github.com/jtljac) fork of the fakeTec.
+
+This design is specifically based off of [Šimon Hořánek's](https://github.com/ShimonHoranek) [fakeTec V5 Rev. B](https://github.com/gargomoma/fakeTec_pcb/issues/24), licensed under [CERN-OHL-P-2.0](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
 
 **[For more meshtastic/meshcore/lora DIY nodes, do check this list out!](https://github.com/porkcube/meshtastic-diy-nodes)**
 
