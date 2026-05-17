@@ -7,13 +7,13 @@
 [Release Files For PCB Revision 5.3 (All features except for GPS tested) (Recommended)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.3)
 
 <details>
-<summary>Revision 5.4 (Though Hole Version) (Untested) (Experimental)</summary>
+<summary>Revision 5.4 (Though Hole Version)</summary>
 
 | Front (Through Hole Version)        | Back (Through Hole Version)       |
 |:------------------------------------|:----------------------------------|
 | ![Front of PCB](./Circuit_Through_Hole/documentation/front.png) | ![Back of PCB](./Circuit_Through_Hole/documentation/back.png) |
 
-[Release Files For PCB Revision 5.4 (Though Hole Version) (Untested) (Experimental)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.4)
+[Release Files For PCB Revision 5.4 (Though Hole Version)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.4)
 
 </details>
 
