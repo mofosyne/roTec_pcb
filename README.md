@@ -1,11 +1,5 @@
 # roTec_pcb
 
-| Front                               | Back                              |
-|:------------------------------------|:----------------------------------|
-| ![Front of PCB](./Circuit/documentation/front.png) | ![Back of PCB](./Circuit/documentation/back.png) |
-
-[Release Files For PCB Revision 5.3 (All features except for GPS tested) (Recommended)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.3)
-
 <details>
 <summary>Revision 5.4 (Though Hole Version)</summary>
 
@@ -14,6 +8,17 @@
 | ![Front of PCB](./Circuit_Through_Hole/documentation/front.png) | ![Back of PCB](./Circuit_Through_Hole/documentation/back.png) |
 
 [Release Files For PCB Revision 5.4 (Though Hole Version)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.4)
+
+</details>
+
+<details>
+<summary>Revision 5.3 (Surface Mount)</summary>
+
+| Front                               | Back                              |
+|:------------------------------------|:----------------------------------|
+| ![Front of PCB](./Circuit/documentation/front.png) | ![Back of PCB](./Circuit/documentation/back.png) |
+
+[Release Files For PCB Revision 5.3 (All features except for GPS tested) (Recommended)](https://github.com/mofosyne/roTec_pcb/releases/tag/rev5.3)
 
 </details>
 
